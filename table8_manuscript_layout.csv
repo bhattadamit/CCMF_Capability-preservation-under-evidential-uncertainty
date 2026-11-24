@@ -1,0 +1,12 @@
+Check (Table 8 row label),json_field,Exhaustive n=2,Random n=2,Random n=3
+Instances,instances,262144,100000,40000
+Algorithm 1 differs from oracle,solver_oracle_mismatch,0,0,0
+Resolved capability not ready (Prop. 2),S1_violations,0,0,0
+Resolved capability with mandatory control not passed (Prop. 3a),S2_violations,0,0,0
+Feasible set changes when cost or coverage change (Prop. 3b),invariance_violations,0,0,0
+Optimum not maximal in resolved count (Prop. 4a),minimal_abstention_violations,0,0,0
+Readiness refinements checked (Prop. 5),refinement_checks,262144,112913,67865
+...of which reduce resolved count,monotonicity_violations,0,0,0
+Feasible plan outside product of local sets (Prop. 6a),joint_not_subset_of_product,0,0,0
+Instances with strict coupling gap (Prop. 6b),strict_coupling_gap_instances,59295,45426,21814
+"Coupling witnesses (all locally resolvable, not jointly)",coupling_witness_instances,5392,1360,426

@@ -1,0 +1,5 @@
+Disposition,C1 coverage,C1 mandatory,C1 cost,C1 locally feasible,C2 cost,C2 locally feasible
+Replace,0.786,fail,2,No,2,No
+Configure,0.929,pass,3,Yes,2,No
+Rebuild,1.0,pass,8,Yes,6,Yes
+Externalize,1.0,pass,6,Yes,7,Yes

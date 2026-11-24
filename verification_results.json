@@ -1,0 +1,124 @@
+{
+  "example": {
+    "coverage": {
+      "replace": 0.786,
+      "configure": 0.929,
+      "rebuild": 1.0,
+      "externalize": 1.0
+    },
+    "mandatory_ok": {
+      "replace": false,
+      "configure": true,
+      "rebuild": true,
+      "externalize": true
+    },
+    "phase0": [
+      [
+        -1,
+        6
+      ],
+      [
+        null,
+        "rebuild"
+      ]
+    ],
+    "phase1": [
+      [
+        -2,
+        10
+      ],
+      [
+        "configure",
+        "externalize"
+      ]
+    ],
+    "independent_choice": [
+      "configure",
+      "rebuild"
+    ],
+    "independent_cost": 9,
+    "independent_feasible": false,
+    "threshold_pick_C1": "replace",
+    "threshold_pick_feasible_locally": false,
+    "local_feasible_C1": [
+      "configure",
+      "rebuild",
+      "externalize"
+    ],
+    "local_feasible_C2": [
+      "rebuild",
+      "externalize"
+    ],
+    "joint_feasible_resolved_all": [
+      [
+        "configure",
+        "externalize"
+      ],
+      [
+        "externalize",
+        "externalize"
+      ],
+      [
+        "rebuild",
+        "externalize"
+      ],
+      [
+        "rebuild",
+        "rebuild"
+      ]
+    ],
+    "solver_agrees": true,
+    "gate_a": false,
+    "gate_b": false,
+    "gate_c": true
+  },
+  "exhaustive_n2_D2": {
+    "instances": 262144,
+    "solver_oracle_mismatch": 0,
+    "S1_violations": 0,
+    "S2_violations": 0,
+    "minimal_abstention_violations": 0,
+    "invariance_violations": 0,
+    "refinement_checks": 262144,
+    "monotonicity_violations": 0,
+    "joint_not_subset_of_product": 0,
+    "strict_coupling_gap_instances": 59295,
+    "coupling_witness_instances": 5392,
+    "baseline_infeasible": 0,
+    "baseline_cause_unready": 0,
+    "baseline_cause_control": 0
+  },
+  "random_n2": {
+    "instances": 100000,
+    "solver_oracle_mismatch": 0,
+    "S1_violations": 0,
+    "S2_violations": 0,
+    "minimal_abstention_violations": 0,
+    "invariance_violations": 0,
+    "refinement_checks": 112913,
+    "monotonicity_violations": 0,
+    "joint_not_subset_of_product": 0,
+    "strict_coupling_gap_instances": 45426,
+    "coupling_witness_instances": 1360,
+    "baseline_infeasible": 93534,
+    "baseline_cause_unready": 71662,
+    "baseline_cause_control": 55191
+  },
+  "random_n3": {
+    "instances": 40000,
+    "solver_oracle_mismatch": 0,
+    "S1_violations": 0,
+    "S2_violations": 0,
+    "minimal_abstention_violations": 0,
+    "invariance_violations": 0,
+    "refinement_checks": 67865,
+    "monotonicity_violations": 0,
+    "joint_not_subset_of_product": 0,
+    "strict_coupling_gap_instances": 21814,
+    "coupling_witness_instances": 426,
+    "baseline_infeasible": 39380,
+    "baseline_cause_unready": 34039,
+    "baseline_cause_control": 28078
+  },
+  "sample_size_ni_p0.10_margin0.05": 566
+}

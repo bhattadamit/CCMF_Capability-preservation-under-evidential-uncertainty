@@ -1,0 +1,73 @@
+{
+  "coverage": {
+    "replace": 0.786,
+    "configure": 0.929,
+    "rebuild": 1.0,
+    "externalize": 1.0
+  },
+  "mandatory_ok": {
+    "replace": false,
+    "configure": true,
+    "rebuild": true,
+    "externalize": true
+  },
+  "phase0": [
+    [
+      -1,
+      6
+    ],
+    [
+      null,
+      "rebuild"
+    ]
+  ],
+  "phase1": [
+    [
+      -2,
+      10
+    ],
+    [
+      "configure",
+      "externalize"
+    ]
+  ],
+  "independent_choice": [
+    "configure",
+    "rebuild"
+  ],
+  "independent_cost": 9,
+  "independent_feasible": false,
+  "threshold_pick_C1": "replace",
+  "threshold_pick_feasible_locally": false,
+  "local_feasible_C1": [
+    "configure",
+    "rebuild",
+    "externalize"
+  ],
+  "local_feasible_C2": [
+    "rebuild",
+    "externalize"
+  ],
+  "joint_feasible_resolved_all": [
+    [
+      "configure",
+      "externalize"
+    ],
+    [
+      "externalize",
+      "externalize"
+    ],
+    [
+      "rebuild",
+      "externalize"
+    ],
+    [
+      "rebuild",
+      "rebuild"
+    ]
+  ],
+  "solver_agrees": true,
+  "gate_a": false,
+  "gate_b": false,
+  "gate_c": true
+}

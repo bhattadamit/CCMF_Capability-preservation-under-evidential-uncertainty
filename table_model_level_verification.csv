@@ -1,0 +1,4 @@
+run,instances,solver_oracle_mismatch,S1_violations,S2_violations,minimal_abstention_violations,invariance_violations,refinement_checks,monotonicity_violations,joint_not_subset_of_product,strict_coupling_gap_instances,coupling_witness_instances,baseline_infeasible,baseline_cause_unready,baseline_cause_control
+exhaustive_n2_D2,262144,0,0,0,0,0,262144,0,0,59295,5392,0,0,0
+random_n2,100000,0,0,0,0,0,112913,0,0,45426,1360,93534,71662,55191
+random_n3,40000,0,0,0,0,0,67865,0,0,21814,426,39380,34039,28078
